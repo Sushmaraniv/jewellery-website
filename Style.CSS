@@ -1,0 +1,210 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2{
+     padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Container */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #ff6600;
+}
+
+.text-secondary{
+    color: #fff;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #ff6600;
+    color: #333;
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background:black;
+    color: #fff;
+}
+
+.bg-secondary{
+    background: #333;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Navbar */
+#navbar .logo{
+    float: inline-start;
+    font-size: xx-large;
+    color: #fff;
+}
+
+/* Showcase */
+#showcase{
+    background: url('../Images/newjew.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../Images/GOLD.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+/* column */
+.column {
+    text-align: center;
+    color: #fff;
+    background: #333;
+}
+
+#blog .column-2 h1{
+    text-align: center;
+}
+
+#blog .column .btn btn-light{
+    align-content: center;
+}
+
+/* Home */
+#home{
+    height: 450px;
+    /* width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; */
+}
+
+#home .img{
+    float: left;
+    width: 50%;
+    background: url('../Images/DIAMONDS.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home .content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home .content p{
+    padding-bottom: 30px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: green;
+}
+
+.footer .social > * {
+    margin-right: 30px;
+}
+
+#blog .iframe{
+width: 50%;
+    background: url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4926427485107!2d76.09461161331139!3d13.00426961768269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba54822b15f3459%3A0x2d8b70da3645b1ad!2sSathyan%20Jewel%20Makers!5e0!3m2!1sen!2sin!4v1599552447821!5m2!1sen!2sin') no-repeat center center/cover;
+    min-height: 100%;
+}
